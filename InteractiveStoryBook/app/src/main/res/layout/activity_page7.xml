@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/walo"
+    tools:context=".Page7">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dahil dito nagalit ang diwata at lahat ng magagandang katangian na kinuha niya sa mga kapwa niya gulay ay ibinigay sa kanya."
+        android:textSize = "18dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="70dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="90dp"
+        android:textAlignment="center"
+        android:id="@+id/page7"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:textColor="#456A5B" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage6"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#471868"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage8"
+        android:text="NEXT"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#471868"/>
+
+</LinearLayout>
+

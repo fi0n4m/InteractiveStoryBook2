@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lima"
+    tools:context=".Page4">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nang sumapit ang gabi kinuha ni Ampalaya ang lahat ng magagandang katangian ng mga gulay at kanyang isinuot."
+        android:textSize = "19dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="35dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:id="@+id/page4"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:textColor="#456A5B" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage3"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#286C2C"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage5"
+        android:text="NEXT"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#286C2C"/>
+
+</LinearLayout>
+

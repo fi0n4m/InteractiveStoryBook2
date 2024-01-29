@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/dalawa"
+    tools:context=".Page1">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sa bayan ng Sariwa, naninirahan ang iba't ibang uri ng gulay, bawat isa may kanya-kanyang kagandahan. Si Kalabasa may kakaibang tamis, si Kamatis may asim, si Luya may anghang, si Labanos sobrang puti, si Talong may lilang balat, si Mustasa may luntiang pisngi, si Singkamas may kakaibang lutong, si Sibuyas manipis na balat, at si Patola may kaakit-akit na gaspang."
+            android:textSize = "16dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:id="@+id/page1"
+            android:textStyle="bold"
+            android:fontFamily="times"
+            android:gravity="center"
+            android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToMainActivity"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#286C2C"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage2"
+        android:text="NEXT"
+        android:backgroundTint="#FEF8F9"
+        android:textColor="#286C2C"/>
+
+</LinearLayout>
+

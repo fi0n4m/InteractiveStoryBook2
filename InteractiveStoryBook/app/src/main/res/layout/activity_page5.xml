@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/anim"
+    tools:context=".Page5">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuwang-tuwa si Ampalaya nang biglang maging sentro siya ng atensyon sa gulayang dating hindi pinapansin. Ngunit, nagkaruon ng pagtitipon ang ibang gulay, at nagkasundo na subaybayan ang mga may kakaibang ganda. Sa sobrang gulat ng ibang gulay, nakita nila si Ampalaya na isa-isa'y naglalantad ng kanyang mga katangian."
+        android:textSize = "16dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="440dp"
+        android:textAlignment="center"
+        android:id="@+id/page5"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:textColor="#121111" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage4"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#D95123"
+        android:textColor="#0A0B0A"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage6"
+        android:text="NEXT"
+        android:backgroundTint="#D95123"
+        android:textColor="#121212"/>
+
+</LinearLayout>
+

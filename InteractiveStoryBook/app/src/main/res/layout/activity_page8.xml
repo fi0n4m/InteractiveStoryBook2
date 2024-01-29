@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/siyam"
+    tools:context=".Page8">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuwang-tuwa si Ampalaya nang biglang maging sentro siya ng atensyon sa gulayang dating hindi pinapansin. Ngunit, nagkaruon ng pagtitipon ang ibang gulay, at nagkasundo na subaybayan ang mga may kakaibang ganda. Sa sobrang gulat ng ibang gulay, nakita nila si Ampalaya na isa-isa'y naglalantad ng kanyang mga katangian."
+        android:textSize = "20dp"
+        android:paddingRight="35dp"
+        android:paddingLeft="35dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="190dp"
+        android:textAlignment="center"
+        android:id="@+id/page8"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage4"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#6E9FD4"
+        android:textColor="#FFF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage6"
+        android:text="NEXT"
+        android:backgroundTint="#6E9FD4"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
+

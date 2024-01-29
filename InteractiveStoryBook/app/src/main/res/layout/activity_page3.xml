@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/apat"
+    tools:context=".Page3">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Araw araw, walang ginawa si Ampalaya kung hindi ikumpara ang kanyan itsura at lasa sa kapwa niya gulay, at dahil dito ay nagbalak siya ng masama sa kapwa niyang mga gulay."
+        android:textSize = "15dp"
+        android:paddingRight="45dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="480dp"
+        android:textAlignment="center"
+        android:id="@+id/page3"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage1"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#286C2C"
+        android:textColor="#FFF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage3"
+        android:text="NEXT"
+        android:backgroundTint="#286C2C"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
+
